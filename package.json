@@ -2,9 +2,11 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://krishnanath.github.io/LyricSearchApp/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "css-loader": "^0.28.11",
+    "gh-pages": "^1.2.0",
     "jquery": "^1.9.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -15,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "deploy": "gh-pages -d src",
     "eject": "react-scripts eject"
   }
 }
